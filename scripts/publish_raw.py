@@ -1,5 +1,6 @@
 import pika
 
+# Se comunica com a Exchange*
 connection_parameters = pika.ConnectionParameters(
     host="localhost",
     port=5672,
